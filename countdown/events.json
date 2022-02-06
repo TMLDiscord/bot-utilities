@@ -1,0 +1,88 @@
+{
+  "_eventDatesComment": "in order of when the event takes place",
+  "eventDates": {
+    "ATW21"       : "July 16, 2021 19:00:00",
+    "TML21W1Camp" : "August 26, 2021 11:00:00",
+    "TML21W1Fest" : "August 27, 2021 12:00:00",
+    "TML21W2Camp" : "September 2, 2021 11:00:00",
+    "TML21W2Fest" : "September 3, 2021 12:00:00",
+    "__2022__"    : "January 1, 2022 00:00:00",
+    "TML22W1Camp" : "July 14, 2022 11:00:00",
+    "TML22W1Fest" : "July 15, 2022 12:00:00",
+    "TML22W2Camp" : "July 21, 2022 11:00:00",
+    "TML22W2Fest" : "July 22, 2022 12:00:00",
+    "TML22W3Camp" : "July 28, 2022 11:00:00",
+    "TML22W3Fest" : "July 29, 2022 12:00:00"
+  },
+  "_eventOutputsComment": "what the bot posts, title under events is optional, date is event-id from above",
+  "eventOutputs": {
+    "TML21W1FestCamp": {
+      "title": "Tomorrowland Belgium 2021 Weekend 1",
+      "events": [
+        {
+          "title": "Camping",
+          "date": "TML21W1Camp"
+        },
+        {
+          "title": "Festival",
+          "date": "TML21W1Fest"
+        }
+      ]
+    },
+    "TML21W2FestCamp": {
+      "title": "Tomorrowland Belgium 2021 Weekend 2",
+      "events": [
+        {
+          "title": "Camping",
+          "date": "TML21W2Camp"
+        },
+        {
+          "title": "Festival",
+          "date": "TML21W2Fest"
+        }
+      ]
+    },
+    "TML22": {
+      "title": "Tomorrowland Belgium 2022",
+      "events": [
+        {
+          "title": "Weekend 1 - Camping",
+          "date": "TML22W1Camp"
+        },
+        {
+          "title": "Weekend 1 - Festival",
+          "date": "TML22W1Fest"
+        },
+        {
+          "title": "Weekend 2 - Camping",
+          "date": "TML22W2Camp"
+        },
+        {
+          "title": "Weekend 2 - Festival",
+          "date": "TML22W2Fest"
+        },
+        {
+          "title": "Weekend 3 - Camping",
+          "date": "TML22W3Camp"
+        },
+        {
+          "title": "Weekend 1 - Festival",
+          "date": "TML22W3Fest"
+        }
+      ]
+    }
+  },
+  "_eventTagsComment": "link tag to eventOutput, for '!countdown {tag}', CAPS please",
+  "eventTags": {
+    "DEFAULT": "TML22",
+    "TML21W1": "TML21W1FestCamp",
+    "TML21W2": "TML21W2FestCamp"
+  },
+  "_discordChannelsComment": "connect channel to eventOutput, to have default output for a channel",
+  "discordChannels": {
+    "_id-of-channel": "comment to describe what channel is it",
+    "id-of-channel": "TML19W1",
+    "_404300162760966152": "#bot-stuff",
+    "404300162760966152": "TML22"
+  }
+}
