@@ -7,6 +7,8 @@
     "TML21W2Camp" : "September 2, 2021 11:00:00",
     "TML21W2Fest" : "September 3, 2021 12:00:00",
     "__2022__"    : "January 1, 2022 00:00:00",
+    "TMW22"       : "March 19, 2022 12:00:00",
+    "TMW22Main"      : "March 23, 2022 12:00:00",
     "TML22W1Camp" : "July 14, 2022 11:00:00",
     "TML22W1Fest" : "July 15, 2022 12:00:00",
     "TML22W2Camp" : "July 21, 2022 11:00:00",
@@ -39,6 +41,19 @@
         {
           "title": "Festival",
           "date": "TML21W2Fest"
+        }
+      ]
+    },
+    "TMW22": {
+      "title": "Tomorrowland Winter 2022",
+      "events": [
+        {
+          "title": "Festival",
+          "date": "TMW22"
+        },
+        {
+          "title": "Main Festival Grounds",
+          "date": "TMW22Main"
         }
       ]
     },
@@ -76,7 +91,9 @@
   "eventTags": {
     "DEFAULT": "TML22",
     "TML21W1": "TML21W1FestCamp",
-    "TML21W2": "TML21W2FestCamp"
+    "TML21W2": "TML21W2FestCamp",
+    "TMW22": "TMW22Fest",
+    "TMW22MAIN": "TMW22MainFestGrounds"
   },
   "_discordChannelsComment": "connect channel to eventOutput, to have default output for a channel",
   "discordChannels": {
