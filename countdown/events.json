@@ -10,6 +10,8 @@
     "TLW22"       : "March 19, 2022 12:00:00",
     "TLW22Main"   : "March 23, 2022 12:00:00",
     "MOH22"       : "March 26, 2022 22:00:00",
+    "Qapital22"   : "April 2, 2022 22:00:00",
+    "DQ22"        : "June 23, 2022 00:00:00",
     "TML22W1Camp" : "July 14, 2022 11:00:00",
     "TML22W1Fest" : "July 15, 2022 12:00:00",
     "TML22W2Camp" : "July 21, 2022 11:00:00",
@@ -130,8 +132,16 @@
         "title": "Hard Events 2022",
         "events": [
             {
-            "title": "Masters of Hardcore: 25 Years",
-            "date": "MOH22"
+              "title": "Masters of Hardcore: 25 Years",
+              "date": "MOH22"
+            },
+            {
+              "title": "Qapital 2022",
+              "date": "Qapital22"
+            },
+            {
+              "title": "Defqon.1 2022",
+              "date": "DQ22"
             }
         ]  
     }
@@ -145,7 +155,8 @@
     "W1": "TML22W1CampFest",
     "W2": "TML22W2CampFest",
     "W3": "TML22W3CampFest",
-    "WINTER": "TLW22"
+    "WINTER": "TLW22",
+    "HARD": "HardEvents22"
   },
   "_discordChannelsComment": "connect channel to eventOutput, to have default output for a channel",
   "discordChannels": {
