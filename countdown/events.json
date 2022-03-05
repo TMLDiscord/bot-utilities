@@ -7,8 +7,8 @@
     "TML21W2Camp" : "September 2, 2021 11:00:00",
     "TML21W2Fest" : "September 3, 2021 12:00:00",
     "__2022__"    : "January 1, 2022 00:00:00",
-    "TMW22"       : "March 19, 2022 12:00:00",
-    "TMW22Main"   : "March 23, 2022 12:00:00",
+    "TLW22"       : "March 19, 2022 12:00:00",
+    "TLW22Main"   : "March 23, 2022 12:00:00",
     "MOH22"       : "March 26, 2022 22:00:00",
     "TML22W1Camp" : "July 14, 2022 11:00:00",
     "TML22W1Fest" : "July 15, 2022 12:00:00",
@@ -50,11 +50,11 @@
       "events": [
         {
           "title": "Festival",
-          "date": "TMW22"
+          "date": "TLW22"
         },
         {
           "title": "Main Festival Grounds",
-          "date": "TMW22Main"
+          "date": "TLW22Main"
         }
       ]
     },
@@ -152,7 +152,7 @@
     "_id-of-channel": "comment to describe what channel is it",
     "id-of-channel": "TML19W1",
     "_404300162760966152": "#bot-stuff",
-    "404300162760966152": "TML22",
+    "404300162760966152": "TLW22",
     "_938523975280115723": "#weekend-1-aka-w0",
     "938523975280115723": "TML22W1CampFest",
     "_409397388411797505": "#weekend-2-aka-w1",
