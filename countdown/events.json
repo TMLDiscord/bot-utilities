@@ -9,6 +9,7 @@
     "__2022__"    : "January 1, 2022 00:00:00",
     "TMW22"       : "March 19, 2022 12:00:00",
     "TMW22Main"   : "March 23, 2022 12:00:00",
+    "MOH22"       : "March 26, 2022 22:00:00",
     "TML22W1Camp" : "July 14, 2022 11:00:00",
     "TML22W1Fest" : "July 15, 2022 12:00:00",
     "TML22W2Camp" : "July 21, 2022 11:00:00",
@@ -44,7 +45,7 @@
         }
       ]
     },
-    "TMW22": {
+    "TLW22": {
       "title": "Tomorrowland Winter 2022",
       "events": [
         {
@@ -85,6 +86,54 @@
           "date": "TML22W3Fest"
         }
       ]
+    },
+    "TML22W1CampFest": {
+      "title": "Tomorrowland Belgium 2022 Weekend 1",
+      "events": [
+        {
+          "title": "Weekend 1 - Camping",
+          "date": "TML22W1Camp"
+        },
+        {
+          "title": "Weekend 1 - Festival",
+          "date": "TML22W1Fest"
+        }
+      ]
+    },
+    "TML22W2CampFest": {
+      "title": "Tomorrowland Belgium 2022 Weekend 2",
+      "events": [
+        {
+          "title": "Weekend 2 - Camping",
+          "date": "TML22W2Camp"
+        },
+        {
+          "title": "Weekend 2 - Festival",
+          "date": "TML22W2Fest"
+        }
+      ]
+    },
+    "TML22W3CampFest": {
+      "title": "Tomorrowland Belgium 2022 Weekend 3",
+      "events": [
+        {
+          "title": "Weekend 3 - Camping",
+          "date": "TML22W3Camp"
+        },
+        {
+          "title": "Weekend 3 - Festival",
+          "date": "TML22W3Fest"
+        }
+      ]
+    },
+    "HardEvents22": {
+        "title": "Hard Events 2022",
+        "events": [
+            {
+            "title": "Masters of Hardcore: 25 Years",
+            "date": "MOH22"
+            }
+        ]  
     }
   },
   "_eventTagsComment": "link tag to eventOutput, for '!countdown {tag}', CAPS please",
@@ -92,13 +141,27 @@
     "DEFAULT": "TML22",
     "TML21W1": "TML21W1FestCamp",
     "TML21W2": "TML21W2FestCamp",
-    "TMW22": "TMW22"
+    "TMW22": "TLW22",
+    "W1": "TML22W1CampFest",
+    "W2": "TML22W2CampFest",
+    "W3": "TML22W3CampFest",
+    "WINTER": "TLW22"
   },
   "_discordChannelsComment": "connect channel to eventOutput, to have default output for a channel",
   "discordChannels": {
     "_id-of-channel": "comment to describe what channel is it",
     "id-of-channel": "TML19W1",
     "_404300162760966152": "#bot-stuff",
-    "404300162760966152": "TML22"
+    "404300162760966152": "TML22",
+    "_938523975280115723": "#weekend-1-aka-w0",
+    "938523975280115723": "TML22W1CampFest",
+    "_409397388411797505": "#weekend-2-aka-w1",
+    "409397388411797505": "TML22W2CampFest",
+    "_409397423031451658": "#weekend-3-aka-w2",
+    "409397423031451658": "TML22W3CampFest",
+    "_474239885918601216": "#winter",
+    "474239885918601216": "TLW22",
+    "_550231595336990730": "#hard-event",
+    "550231595336990730": "HardEvents22"
   }
 }
