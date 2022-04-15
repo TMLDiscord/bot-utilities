@@ -1,5 +1,5 @@
 {
-  "_eventDatesComment": "in order of when the event takes place",
+  "_eventDatesComment": "in order of when the event takes place (if you don't know opening times, use 00:00:00)",
   "eventDates": {
     "ATW21"       : "July 16, 2021 19:00:00",
     "TML21W1Camp" : "August 26, 2021 11:00:00",
@@ -17,7 +17,9 @@
     "TML22W2Camp" : "July 21, 2022 11:00:00",
     "TML22W2Fest" : "July 22, 2022 12:00:00",
     "TML22W3Camp" : "July 28, 2022 11:00:00",
-    "TML22W3Fest" : "July 29, 2022 12:00:00"
+    "TML22W3Fest" : "July 29, 2022 12:00:00",
+    "ML22Camp"    : "August 26, 2022 11:00:00",
+    "ML22Fest"    : "August 27, 2022 00:00:00"
   },
   "_eventOutputsComment": "what the bot posts, title under events is optional, date is event-id from above",
   "eventOutputs": {
@@ -144,6 +146,19 @@
               "date": "DQ22"
             }
         ]  
+    },
+    "ML22": {
+      "title": "Mystyeryland 2022",
+      "events": [
+        {
+          "title": "Camping",
+          "date": "ML22Camp"
+        },
+        {
+          "title": "Festival (for weekend/day tickets)",
+          "date": "ML22Fest"
+        }
+      ]
     }
   },
   "_eventTagsComment": "link tag to eventOutput, for '!countdown {tag}', CAPS please",
@@ -156,7 +171,9 @@
     "W2": "TML22W2CampFest",
     "W3": "TML22W3CampFest",
     "WINTER": "TLW22",
-    "HARD": "HardEvents22"
+    "HARD": "HardEvents22",
+    "ML": "ML22",
+    "MYSTERYLAND": "ML22"
   },
   "_discordChannelsComment": "connect channel to eventOutput, to have default output for a channel",
   "discordChannels": {
@@ -173,6 +190,8 @@
     "_474239885918601216": "#winter",
     "474239885918601216": "TLW22",
     "_550231595336990730": "#hard-event",
-    "550231595336990730": "HardEvents22"
+    "550231595336990730": "HardEvents22",
+    "_475708025945194506": "#mysteryland",
+    "475708025945194506": "ML22"
   }
 }
