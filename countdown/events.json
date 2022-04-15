@@ -11,6 +11,8 @@
     "TLW22Main"   : "March 23, 2022 12:00:00",
     "MOH22"       : "March 26, 2022 22:00:00",
     "Qapital22"   : "April 2, 2022 22:00:00",
+    "Intents22Camp":"May 27, 2022 09:00:00",
+    "Intents22Fest":"May 27, 2022 14:00:00",
     "DQ22"        : "June 23, 2022 00:00:00",
     "TML22W1Camp" : "July 14, 2022 11:00:00",
     "TML22W1Fest" : "July 15, 2022 12:00:00",
@@ -138,11 +140,15 @@
               "date": "MOH22"
             },
             {
-              "title": "Qapital 2022",
+              "title": "Qapital",
               "date": "Qapital22"
             },
             {
-              "title": "Defqon.1 2022",
+              "title": "Intents Festival",
+              "date": "Intents22Camp"
+            },
+            {
+              "title": "Defqon.1",
               "date": "DQ22"
             }
         ]  
