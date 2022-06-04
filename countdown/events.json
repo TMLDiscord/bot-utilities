@@ -20,8 +20,10 @@
     "TML22W2Fest" : "July 22, 2022 12:00:00",
     "TML22W3Camp" : "July 28, 2022 11:00:00",
     "TML22W3Fest" : "July 29, 2022 12:00:00",
+    "DECIBEL22"   : "August 19, 2022 13:00:00",
     "ML22Camp"    : "August 26, 2022 11:00:00",
-    "ML22Fest"    : "August 27, 2022 00:00:00"
+    "ML22Fest"    : "August 27, 2022 00:00:00",
+    "QLIMAX22"    : "November 26, 2022 00:00:00"
   },
   "_eventOutputsComment": "what the bot posts, title under events is optional, date is event-id from above",
   "eventOutputs": {
@@ -150,6 +152,14 @@
             {
               "title": "Defqon.1",
               "date": "DQ22"
+            },
+            {
+              "title": "Decibel Outdoor",
+              "date": "DECIBEL22"
+            },
+            {
+              "title": "Qlimax (unconfirmed?)",
+              "date": "QLIMAX22"
             }
         ]  
     },
@@ -186,7 +196,7 @@
     "_id-of-channel": "comment to describe what channel is it",
     "id-of-channel": "TML19W1",
     "_404300162760966152": "#bot-stuff",
-    "404300162760966152": "TLW22",
+    "404300162760966152": "DEFAULT",
     "_938523975280115723": "#weekend-1-aka-w0",
     "938523975280115723": "TML22W1CampFest",
     "_409397388411797505": "#weekend-2-aka-w1",
