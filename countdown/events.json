@@ -13,7 +13,7 @@
     "Qapital22"   : "April 2, 2022 22:00:00",
     "Intents22Camp":"May 27, 2022 09:00:00",
     "Intents22Fest":"May 27, 2022 14:00:00",
-    "DQ22"        : "June 23, 2022 00:00:00",
+    "DQ22"        : "June 23, 2022 12:00:00",
     "TML22W1Camp" : "July 14, 2022 11:00:00",
     "TML22W1Fest" : "July 15, 2022 12:00:00",
     "TML22W2Camp" : "July 21, 2022 11:00:00",
@@ -23,6 +23,7 @@
     "DECIBEL22"   : "August 19, 2022 13:00:00",
     "ML22Camp"    : "August 26, 2022 11:00:00",
     "ML22Fest"    : "August 27, 2022 00:00:00",
+    "ADE22"       : "October 19, 2022 00:00:00",
     "QLIMAX22"    : "November 26, 2022 00:00:00"
   },
   "_eventOutputsComment": "what the bot posts, title under events is optional, date is event-id from above",
@@ -175,6 +176,15 @@
           "date": "ML22Fest"
         }
       ]
+    },
+    "ADE22": {
+      "title": "Amsterdam Dance Event 2022",
+      "events": [
+        {
+          "title": "ADE 2022",
+          "date": "ADE22"
+        }
+      ]
     }
   },
   "_eventTagsComment": "link tag to eventOutput, for '!countdown {tag}', CAPS please",
@@ -189,7 +199,10 @@
     "WINTER": "TLW22",
     "HARD": "HardEvents22",
     "ML": "ML22",
-    "MYSTERYLAND": "ML22"
+    "MYSTERYLAND": "ML22",
+    "DQ": "DQ22",
+    "DEFQON": "DQ22",
+    "ADE": "ADE22"
   },
   "_discordChannelsComment": "connect channel to eventOutput, to have default output for a channel",
   "discordChannels": {
@@ -208,6 +221,8 @@
     "_550231595336990730": "#hard-event",
     "550231595336990730": "HardEvents22",
     "_475708025945194506": "#mysteryland",
-    "475708025945194506": "ML22"
+    "475708025945194506": "ML22",
+    "_485068747556782080": "#ade",
+    "485068747556782080": "ADE22"
   }
 }
