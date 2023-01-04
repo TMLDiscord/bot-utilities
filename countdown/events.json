@@ -25,9 +25,13 @@
     "ML22Fest"    : "August 27, 2022 00:00:00",
     "ADE22"       : "October 19, 2022 00:00:00",
     "QLIMAX22"    : "November 26, 2022 00:00:00",
-    "__2023__"    : "January 1, 2023 00:00:00",
-    "TLW23Fest"      : "2023-03-18 12:00:00",
-    "TLW23Main"      : "2023-03-23 12:00:00"
+    "__2023__"      : "2023-01-01 00:00:00",
+    "TLW23Fest"     : "2023-03-18 12:00:00",
+    "TLW23Main"     : "2023-03-22 12:00:00",
+    "TML23W1Camp"   : "2023-07-20 11:00:00",
+    "TML23W1Fest"   : "2023-07-21 12:00:00",
+    "TML23W2Camp"   : "2023-07-27 11:00:00",
+    "TML23W2Fest"   : "2023-07-28 12:00:00"
   },
   "_eventOutputsComment": "what the bot posts, title under events is optional, date is event-id from above",
   "eventOutputs": {
@@ -138,6 +142,53 @@
         }
       ]
     },
+    "TML23": {
+      "title": "Tomorrowland Belgium 2023",
+      "events": [
+        {
+          "title": "Weekend 1 - Camping",
+          "date": "TML23W1Camp"
+        },
+        {
+          "title": "Weekend 1 - Festival",
+          "date": "TML23W1Fest"
+        },
+        {
+          "title": "Weekend 2 - Camping",
+          "date": "TML23W2Camp"
+        },
+        {
+          "title": "Weekend 2 - Festival",
+          "date": "TML23W2Fest"
+        }
+      ]
+    },
+    "TML23W1CampFest": {
+      "title": "Tomorrowland Belgium 2023 Weekend 1",
+      "events": [
+        {
+          "title": "Weekend 1 - Camping",
+          "date": "TML23W1Camp"
+        },
+        {
+          "title": "Weekend 1 - Festival",
+          "date": "TML23W1Fest"
+        }
+      ]
+    },
+    "TML23W2CampFest": {
+      "title": "Tomorrowland Belgium 2023 Weekend 2",
+      "events": [
+        {
+          "title": "Weekend 2 - Camping",
+          "date": "TML23W2Camp"
+        },
+        {
+          "title": "Weekend 2 - Festival",
+          "date": "TML23W2Fest"
+        }
+      ]
+    },
     "HardEvents22": {
         "title": "Hard Events 2022",
         "events": [
@@ -195,11 +246,12 @@
     "DEFAULT": "TLW23",
     "TML21W1": "TML21W1FestCamp",
     "TML21W2": "TML21W2FestCamp",
+    "TML22W1": "TML22W1FestCamp",
+    "TML22W2": "TML22W2FestCamp",
     "TMW22": "TLW22",
-    "W1": "TML22W1CampFest",
-    "W2": "TML22W2CampFest",
-    "W3": "TML22W3CampFest",
-    "WINTER": "TLW22",
+    "W1": "TML23W1CampFest",
+    "W2": "TML23W2CampFest",
+    "WINTER": "TLW23",
     "HARD": "HardEvents22",
     "ML": "ML22",
     "MYSTERYLAND": "ML22",
@@ -214,13 +266,13 @@
     "_404300162760966152": "#bot-stuff",
     "404300162760966152": "DEFAULT",
     "_938523975280115723": "#weekend-1-aka-w0",
-    "938523975280115723": "TML22W1CampFest",
+    "938523975280115723": "TML23W1CampFest",
     "_409397388411797505": "#weekend-2-aka-w1",
-    "409397388411797505": "TML22W2CampFest",
+    "409397388411797505": "TML23W2CampFest",
     "_409397423031451658": "#weekend-3-aka-w2",
     "409397423031451658": "TML22W3CampFest",
     "_474239885918601216": "#winter",
-    "474239885918601216": "TLW22",
+    "474239885918601216": "TLW23",
     "_550231595336990730": "#hard-event",
     "550231595336990730": "HardEvents22",
     "_475708025945194506": "#mysteryland",
