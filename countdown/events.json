@@ -24,7 +24,9 @@
     "ML22Camp"    : "August 26, 2022 11:00:00",
     "ML22Fest"    : "August 27, 2022 00:00:00",
     "ADE22"       : "October 19, 2022 00:00:00",
-    "QLIMAX22"    : "November 26, 2022 00:00:00"
+    "QLIMAX22"    : "November 26, 2022 00:00:00",
+    "__2023__"    : "January 1, 2023 00:00:00",
+    "TLW23"      : "2023-03-18 12:00:00"
   },
   "_eventOutputsComment": "what the bot posts, title under events is optional, date is event-id from above",
   "eventOutputs": {
