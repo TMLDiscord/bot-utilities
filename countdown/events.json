@@ -26,7 +26,8 @@
     "ADE22"       : "October 19, 2022 00:00:00",
     "QLIMAX22"    : "November 26, 2022 00:00:00",
     "__2023__"    : "January 1, 2023 00:00:00",
-    "TLW23"      : "2023-03-18 12:00:00"
+    "TLW23Fest"      : "2023-03-18 12:00:00",
+    "TLW23Main"      : "2023-03-23 12:00:00"
   },
   "_eventOutputsComment": "what the bot posts, title under events is optional, date is event-id from above",
   "eventOutputs": {
@@ -56,16 +57,16 @@
         }
       ]
     },
-    "TLW22": {
-      "title": "Tomorrowland Winter 2022",
+    "TLW23": {
+      "title": "Tomorrowland Winter 2023",
       "events": [
         {
           "title": "Festival",
-          "date": "TLW22"
+          "date": "TLW23Fest"
         },
         {
           "title": "Main Festival Grounds",
-          "date": "TLW22Main"
+          "date": "TLW23Main"
         }
       ]
     },
@@ -191,7 +192,7 @@
   },
   "_eventTagsComment": "link tag to eventOutput, for '!countdown {tag}', CAPS please",
   "eventTags": {
-    "DEFAULT": "TML22",
+    "DEFAULT": "TLW23",
     "TML21W1": "TML21W1FestCamp",
     "TML21W2": "TML21W2FestCamp",
     "TMW22": "TLW22",
