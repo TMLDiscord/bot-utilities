@@ -11,8 +11,8 @@
 
 1. Under "eventDates", add:
 ```json
-"TML22W1Camp" : "July 14, 2022 11:00:00",
-"TML22W1Fest" : "July 15, 2022 12:00:00"
+"TML22W1Camp" : "2022-07-14 11:00:00",
+"TML22W1Fest" : "2022-07-15 12:00:00"
 ```
 2. Under "eventOutputs", add:
 ```json
