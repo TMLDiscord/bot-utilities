@@ -1,6 +1,7 @@
 # Help files for the Tomorrowland Discord Community bot
 
-- [**countdown**](countdown/README.md) - Add/remove events for `!countdown`-command
+- [**countdown**](countdown) - Manage events for `!countdown`-command
+- [**host**](host) - Manage host genres for `!host`-command
 
 
 ---
