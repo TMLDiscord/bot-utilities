@@ -243,7 +243,7 @@
   },
   "_eventTagsComment": "link tag to eventOutput, for '!countdown {tag}', CAPS please",
   "eventTags": {
-    "DEFAULT": "TLW23",
+    "DEFAULT": "TML23",
     "TML21W1": "TML21W1FestCamp",
     "TML21W2": "TML21W2FestCamp",
     "TML22W1": "TML22W1FestCamp",
