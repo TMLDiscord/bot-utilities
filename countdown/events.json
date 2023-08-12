@@ -1,37 +1,39 @@
 {
   "_eventDatesComment": "in order of when the event takes place (if you don't know opening times, use 00:00:00)",
   "eventDates": {
-    "ATW21"       : "July 16, 2021 19:00:00",
-    "TML21W1Camp" : "August 26, 2021 11:00:00",
-    "TML21W1Fest" : "August 27, 2021 12:00:00",
-    "TML21W2Camp" : "September 2, 2021 11:00:00",
-    "TML21W2Fest" : "September 3, 2021 12:00:00",
-    "__2022__"    : "January 1, 2022 00:00:00",
-    "TLW22"       : "March 19, 2022 12:00:00",
-    "TLW22Main"   : "March 23, 2022 12:00:00",
-    "MOH22"       : "March 26, 2022 22:00:00",
-    "Qapital22"   : "April 2, 2022 22:00:00",
-    "Intents22Camp":"May 27, 2022 09:00:00",
-    "Intents22Fest":"May 27, 2022 14:00:00",
-    "DQ22"        : "June 23, 2022 12:00:00",
-    "TML22W1Camp" : "July 14, 2022 11:00:00",
-    "TML22W1Fest" : "July 15, 2022 12:00:00",
-    "TML22W2Camp" : "July 21, 2022 11:00:00",
-    "TML22W2Fest" : "July 22, 2022 12:00:00",
-    "TML22W3Camp" : "July 28, 2022 11:00:00",
-    "TML22W3Fest" : "July 29, 2022 12:00:00",
-    "DECIBEL22"   : "August 19, 2022 13:00:00",
-    "ML22Camp"    : "August 26, 2022 11:00:00",
-    "ML22Fest"    : "August 27, 2022 00:00:00",
-    "ADE22"       : "October 19, 2022 00:00:00",
-    "QLIMAX22"    : "November 26, 2022 00:00:00",
+    "ATW21"         : "July 16, 2021 19:00:00",
+    "TML21W1Camp"   : "August 26, 2021 11:00:00",
+    "TML21W1Fest"   : "August 27, 2021 12:00:00",
+    "TML21W2Camp"   : "September 2, 2021 11:00:00",
+    "TML21W2Fest"   : "September 3, 2021 12:00:00",
+    "__2022__"      : "January 1, 2022 00:00:00",
+    "TLW22"         : "March 19, 2022 12:00:00",
+    "TLW22Main"     : "March 23, 2022 12:00:00",
+    "MOH22"         : "March 26, 2022 22:00:00",
+    "Qapital22"     : "April 2, 2022 22:00:00",
+    "Intents22Camp" : "May 27, 2022 09:00:00",
+    "Intents22Fest" : "May 27, 2022 14:00:00",
+    "DQ22"          : "June 23, 2022 12:00:00",
+    "TML22W1Camp"   : "July 14, 2022 11:00:00",
+    "TML22W1Fest"   : "July 15, 2022 12:00:00",
+    "TML22W2Camp"   : "July 21, 2022 11:00:00",
+    "TML22W2Fest"   : "July 22, 2022 12:00:00",
+    "TML22W3Camp"   : "July 28, 2022 11:00:00",
+    "TML22W3Fest"   : "July 29, 2022 12:00:00",
+    "DECIBEL22"     : "August 19, 2022 13:00:00",
+    "ML22Camp"      : "August 26, 2022 11:00:00",
+    "ML22Fest"      : "August 27, 2022 00:00:00",
+    "ADE22"         : "October 19, 2022 00:00:00",
+    "QLIMAX22"      : "November 26, 2022 00:00:00",
     "__2023__"      : "2023-01-01 00:00:00",
     "TLW23Fest"     : "2023-03-18 12:00:00",
     "TLW23Main"     : "2023-03-21 19:00:00",
     "TML23W1Camp"   : "2023-07-20 11:00:00",
     "TML23W1Fest"   : "2023-07-21 12:00:00",
     "TML23W2Camp"   : "2023-07-27 11:00:00",
-    "TML23W2Fest"   : "2023-07-28 12:00:00"
+    "TML23W2Fest"   : "2023-07-28 12:00:00",
+    "ML23Camp"      : "2023-08-25 11:00:00",
+    "ML23Fest"      : "2023-08-26 11:00:00"
   },
   "_eventOutputsComment": "what the bot posts, title under events is optional, date is event-id from above",
   "eventOutputs": {
@@ -219,7 +221,7 @@
         ]  
     },
     "ML22": {
-      "title": "Mystyeryland 2022",
+      "title": "Mysteryland 2022",
       "events": [
         {
           "title": "Camping",
@@ -228,6 +230,19 @@
         {
           "title": "Festival (for weekend/day tickets)",
           "date": "ML22Fest"
+        }
+      ]
+    },
+    "ML23": {
+      "title": "Mysteryland 2023",
+      "events": [
+        {
+          "title": "Camping",
+          "date": "ML23Camp"
+        },
+        {
+          "title": "Festival (for weekend/day tickets)",
+          "date": "ML23Fest"
         }
       ]
     },
@@ -253,31 +268,31 @@
     "W2": "TML23W2CampFest",
     "WINTER": "TLW23",
     "HARD": "HardEvents22",
-    "ML": "ML22",
-    "MYSTERYLAND": "ML22",
+    "ML": "ML23",
+    "MYSTERYLAND": "ML23",
     "DQ": "DQ22",
     "DEFQON": "DQ22",
     "ADE": "ADE22"
   },
   "_discordChannelsComment": "connect channel to eventOutput, to have default output for a channel",
   "discordChannels": {
-    "_id-of-channel": "comment to describe what channel is it",
-    "id-of-channel": "TML19W1",
-    "_404300162760966152": "#bot-stuff",
-    "404300162760966152": "DEFAULT",
-    "_938523975280115723": "#weekend-1-aka-w0",
-    "938523975280115723": "TML22W1CampFest",
-    "_409397388411797505": "#weekend-2-aka-w1",
-    "409397388411797505": "TML23W1CampFest",
-    "_409397423031451658": "#weekend-3-aka-w2",
-    "409397423031451658": "TML23W2CampFest",
-    "_474239885918601216": "#winter",
-    "474239885918601216": "TLW23",
-    "_550231595336990730": "#hard-event",
-    "550231595336990730": "HardEvents22",
-    "_475708025945194506": "#mysteryland",
-    "475708025945194506": "ML22",
-    "_485068747556782080": "#ade",
-    "485068747556782080": "ADE22"
+    "_id-of-channel"      : "comment to describe what channel is it",
+    "id-of-channel"       : "TML19W1",
+    "_404300162760966152" : "#bot-stuff",
+    "404300162760966152"  : "DEFAULT",
+    "_938523975280115723" : "#weekend-1-aka-w0",
+    "938523975280115723"  : "TML22W1CampFest",
+    "_409397388411797505" : "#weekend-2-aka-w1",
+    "409397388411797505"  : "TML23W1CampFest",
+    "_409397423031451658" : "#weekend-3-aka-w2",
+    "409397423031451658"  : "TML23W2CampFest",
+    "_474239885918601216" : "#winter",
+    "474239885918601216"  : "TLW23",
+    "_550231595336990730" : "#hard-event",
+    "550231595336990730"  : "HardEvents22",
+    "_475708025945194506" : "#mysteryland",
+    "475708025945194506"  : "ML23",
+    "_485068747556782080" : "#ade",
+    "485068747556782080"  : "ADE22"
   }
 }
