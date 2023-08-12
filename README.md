@@ -2,6 +2,7 @@
 
 - [**countdown**](countdown) - Manage events for `!countdown`-command
 - [**host**](host) - Manage host genres for `!host`-command
+- [**clashfinder**](clashfinder) - Manage clashfinder urls for `!clashfinder`-command
 
 
 ---
