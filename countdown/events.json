@@ -33,7 +33,10 @@
     "TML23W2Camp"   : "2023-07-27 11:00:00",
     "TML23W2Fest"   : "2023-07-28 12:00:00",
     "ML23Camp"      : "2023-08-25 11:00:00",
-    "ML23Fest"      : "2023-08-26 11:00:00"
+    "ML23Fest"      : "2023-08-26 11:00:00",
+    "__2024__"      : "2023-01-01 00:00:00",
+    "ML24Camp"      : "2024-08-30 11:00:00",
+    "ML24Fest"      : "2024-08-31 12:00:00"
   },
   "_eventOutputsComment": "what the bot posts, title under events is optional, date is event-id from above",
   "eventOutputs": {
@@ -246,6 +249,19 @@
         }
       ]
     },
+    "ML24": {
+      "title": "Mysteryland 2024",
+      "events": [
+        {
+          "title": "Camping",
+          "date": "ML24Camp"
+        },
+        {
+          "title": "Festival (for weekend/day tickets)",
+          "date": "ML24Fest"
+        }
+      ]
+    },
     "ADE22": {
       "title": "Amsterdam Dance Event 2022",
       "events": [
@@ -268,8 +284,8 @@
     "W2": "TML23W2CampFest",
     "WINTER": "TLW23",
     "HARD": "HardEvents22",
-    "ML": "ML23",
-    "MYSTERYLAND": "ML23",
+    "ML": "ML24",
+    "MYSTERYLAND": "ML24",
     "DQ": "DQ22",
     "DEFQON": "DQ22",
     "ADE": "ADE22"
@@ -291,7 +307,7 @@
     "_550231595336990730" : "#hard-event",
     "550231595336990730"  : "HardEvents22",
     "_475708025945194506" : "#mysteryland",
-    "475708025945194506"  : "ML23",
+    "475708025945194506"  : "ML24",
     "_485068747556782080" : "#ade",
     "485068747556782080"  : "ADE22"
   }
