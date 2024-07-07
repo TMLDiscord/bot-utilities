@@ -34,7 +34,11 @@
     "TML23W2Fest"   : "2023-07-28 12:00:00",
     "ML23Camp"      : "2023-08-25 11:00:00",
     "ML23Fest"      : "2023-08-26 11:00:00",
-    "__2024__"      : "2023-01-01 00:00:00",
+    "__2024__"      : "2023-01-01 00:00:00",    
+    "TML24W1Camp"   : "2024-07-18 11:00:00",
+    "TML24W1Fest"   : "2024-07-19 12:00:00",
+    "TML24W2Camp"   : "2024-07-25 11:00:00",
+    "TML24W2Fest"   : "2024-07-26 12:00:00",
     "ML24Camp"      : "2024-08-30 11:00:00",
     "ML24Fest"      : "2024-08-31 12:00:00"
   },
@@ -194,6 +198,53 @@
         }
       ]
     },
+    "TML24": {
+      "title": "Tomorrowland Belgium 2024",
+      "events": [
+        {
+          "title": "Weekend 1 - Camping",
+          "date": "TML24W1Camp"
+        },
+        {
+          "title": "Weekend 1 - Festival",
+          "date": "TML24W1Fest"
+        },
+        {
+          "title": "Weekend 2 - Camping",
+          "date": "TML24W2Camp"
+        },
+        {
+          "title": "Weekend 2 - Festival",
+          "date": "TML24W2Fest"
+        }
+      ]
+    },
+    "TML24W1CampFest": {
+      "title": "Tomorrowland Belgium 2024 Weekend 1",
+      "events": [
+        {
+          "title": "Weekend 1 - Camping",
+          "date": "TML24W1Camp"
+        },
+        {
+          "title": "Weekend 1 - Festival",
+          "date": "TML24W1Fest"
+        }
+      ]
+    },
+    "TML24W2CampFest": {
+      "title": "Tomorrowland Belgium 2024 Weekend 2",
+      "events": [
+        {
+          "title": "Weekend 2 - Camping",
+          "date": "TML24W2Camp"
+        },
+        {
+          "title": "Weekend 2 - Festival",
+          "date": "TML24W2Fest"
+        }
+      ]
+    },
     "HardEvents22": {
         "title": "Hard Events 2022",
         "events": [
@@ -274,7 +325,7 @@
   },
   "_eventTagsComment": "link tag to eventOutput, for '!countdown {tag}', CAPS please",
   "eventTags": {
-    "DEFAULT": "TML23",
+    "DEFAULT": "TML24",
     "TML21W1": "TML21W1FestCamp",
     "TML21W2": "TML21W2FestCamp",
     "TML22W1": "TML22W1FestCamp",
