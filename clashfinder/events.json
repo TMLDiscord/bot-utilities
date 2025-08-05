@@ -1,8 +1,4 @@
-[    
-    {
-        "name": "Monday Bar The Grand Cruise 2025",
-        "url": "https://clashfinder.com/s/mbgc25/"
-    },
+[
     {
         "name": "Tomorrowland Belgium 2025 W1",
         "url": "https://clashfinder.com/s/tml2025w1/",
@@ -12,5 +8,9 @@
         "name": "Tomorrowland Belgium 2025 W2",
         "url": "https://clashfinder.com/s/tml2025w2/",
         "note": "[Add `?user=weekendfinder` to url](https://clashfinder.com/s/tml2025w2/?user=weekendfinder) to see what weekend(s) artists are performing."
+    },
+    {
+        "name": "Mysteryland 2025",
+        "url": "https://clashfinder.com/s/mysteryland2025/"
     }
 ]
